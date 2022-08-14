@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vJl2YLFDXTOGL2TJRK5ftkSw9Eav7P1kHfJxcke37sGZPbdIujNZ2ST+6v7Dxc+diE8Z13pMbvf3LQ0qbhEnkA==",
+  "dgSpecHash": "TdtVZhV4aXFM74r3I7EIOOAmbxElqFlX05okH4jXXr9T9oBkPCYKX1HasSuvcpSsTn1lo8i+jAgLhYDtb4uhQQ==",
   "success": true,
   "projectFilePath": "D:\\_self_study\\udemy\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\mongodb.bson\\2.17.1\\mongodb.bson.2.17.1.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\mongodb.driver\\2.17.1\\mongodb.driver.2.17.1.nupkg.sha512",

@@ -1,0 +1,18 @@
+services:
+  catalog.api:
+    build:
+      context: D:\_self_study\udemy\src
+      dockerfile: Services/Catalog/Catalog.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: catalogapi
+    ports:
+    - target: 80
+  catalogdb:
+    container_name: catalogdb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+version: '3.4'
