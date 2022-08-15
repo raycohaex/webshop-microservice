@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Kx+06ItGk/cQAlqtO4gn0NYBhf//8jnfQzOnzBGw5ZHH6MoXIjR4Y1OBpocz8hcVJWAj23sCYF4/EYWvaX2F5Q==",
+  "success": true,
+  "projectFilePath": "D:\\_self_study\\udemy\\src\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rayco\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
