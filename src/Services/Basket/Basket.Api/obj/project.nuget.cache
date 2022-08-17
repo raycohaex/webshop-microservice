@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZN3HwtAJXpv2crmsmJBCxzrvQHBt/NNU2QIPU3poMkEnAHc/xvsbrjWWx+NYu4+djrs878Z7AxleYjugwvrPbQ==",
+  "dgSpecHash": "CEVjFlXAf1YvNqxL0nhyQZNsW3l4aqLrcmZpJ7czoAhY45CvQLSCQ/42uLmlrb7B/oTTDpQvA+X6KY9DpoDiRQ==",
   "success": true,
   "projectFilePath": "D:\\_self_study\\udemy\\src\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
