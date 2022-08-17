@@ -1,4 +1,5 @@
 using Basket.Api.Repositories;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +15,10 @@ builder.Services.AddStackExchangeRedisCache(options =>
 {
     options.Configuration = Configuration.GetValue<string>("CacheSettings:ConnectionString");
 });
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options => {
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Webshop Microservice Basket API", Version = "v1" });
+}
+);
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 
 var app = builder.Build();
