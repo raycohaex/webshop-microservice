@@ -1,5 +1,7 @@
+using Discount.API.Extensions;
 using Discount.API.Repositories;
 using Microsoft.OpenApi.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,10 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Discount.API", Version = "v1" });
 });
+
+var host = Host.CreateDefaultBuilder(args).Build();
+host.MigrateDatabase<Program>();
+host.RunAsync();
 
 var app = builder.Build();
 
