@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wiHlmXND8Dv3Vrwb3FpRs1FCPQvCvqFBBQ0IXdLedw+E2TlxQqnvmWFkbCHHZ6KLcv6KyWxfXQ0VvSN5C67w0g==",
+  "dgSpecHash": "ZZvi4HJtsVYdaIEc5PqmNtGflmpQYAuf8pK+pP9F13R0EVCOC1x6+cUWFdjI9ADJWFexi7EchV8jaDvEg9pIpQ==",
   "success": true,
   "projectFilePath": "D:\\_self_study\\udemy\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
