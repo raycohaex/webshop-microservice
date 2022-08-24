@@ -1,4 +1,6 @@
+using Basket.Api.GrpcServices;
 using Basket.Api.Repositories;
+using Discount.Grpc.Protos;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,11 +17,18 @@ builder.Services.AddStackExchangeRedisCache(options =>
 {
     options.Configuration = Configuration.GetValue<string>("CacheSettings:ConnectionString");
 });
+
 builder.Services.AddSwaggerGen(options => {
     options.SwaggerDoc("v1", new OpenApiInfo { Title = "Webshop Microservice Basket API", Version = "v1" });
 }
 );
+
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+
+builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>
+    (o => o.Address = new Uri(Configuration["GrpcSettings:DiscountUrl"]));
+
+builder.Services.AddScoped<DiscountGrpcService>();
 
 var app = builder.Build();
 
