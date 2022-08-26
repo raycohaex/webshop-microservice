@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "c/4Fgfr2NpIsc3KacDEV2cxi93Dm0uY+s/4quuYEI5x+qD1JDNvsK5q+eXk0bl83Qrz6u6qEW6zfKyy37bmF/A==",
+  "dgSpecHash": "0znnKb+4viJcjS4w7WsJe78ou57QEVDa9D5tLpfvUTdwgn0q08rccTnlmky5ksCHhkuOpz8TELzqT+f/8Qx3Gg==",
   "success": true,
   "projectFilePath": "D:\\_self_study\\udemy\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rayco\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

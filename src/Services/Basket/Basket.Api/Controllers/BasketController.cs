@@ -11,7 +11,7 @@ namespace Basket.Api.Controllers
     public class BasketController : Controller
     {
         private readonly IBasketRepository _repository;
-        private readonly DiscountGrpcService _discountGrpcService
+        private readonly DiscountGrpcService _discountGrpcService;
 
         public BasketController(IBasketRepository repository, DiscountGrpcService discountGrpcService)
         {
