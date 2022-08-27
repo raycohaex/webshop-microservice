@@ -25,3 +25,15 @@ D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\obj\Debug\net6.0\refint\
 D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\obj\Debug\net6.0\Ordering.Api.pdb
 D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\obj\Debug\net6.0\Ordering.Api.genruntimeconfig.cache
 D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\obj\Debug\net6.0\ref\Ordering.Api.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\AutoMapper.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\FluentValidation.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\MediatR.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Application.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Domain.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Infrastructure.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Application.pdb
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Infrastructure.pdb
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Domain.pdb

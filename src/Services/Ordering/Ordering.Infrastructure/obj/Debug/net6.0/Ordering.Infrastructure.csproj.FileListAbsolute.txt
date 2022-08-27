@@ -1,0 +1,17 @@
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Infrastructure.deps.json
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Infrastructure.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Infrastructure.pdb
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Application.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Domain.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Application.pdb
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Ordering.Domain.pdb
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.csproj.AssemblyReference.cache
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.AssemblyInfoInputs.cache
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.AssemblyInfo.cs
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.csproj.CoreCompileInputs.cache
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.csproj.CopyComplete
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\refint\Ordering.Infrastructure.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.pdb
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\ref\Ordering.Infrastructure.dll
