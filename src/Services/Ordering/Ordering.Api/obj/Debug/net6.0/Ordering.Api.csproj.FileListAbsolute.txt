@@ -37,3 +37,5 @@ D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\Orderin
 D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Application.pdb
 D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Infrastructure.pdb
 D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Domain.pdb
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\_self_study\udemy\src\Services\Ordering\Ordering.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
