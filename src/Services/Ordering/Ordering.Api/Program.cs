@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Ordering.Api.Extensions;
 using Ordering.Application;
 using Ordering.Infrastructure.Persistence;
@@ -11,20 +12,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var host = Host.CreateDefaultBuilder(args).Build();
-host.MigrateDatabase<OrderContext>((context, services) =>
-{
-    var logger = services.GetService<ILogger<OrderContextSeed>>();
-    OrderContextSeed
-        .SeedAsync(context, logger)
-        .Wait();
-});
-host.RunAsync();
-
 builder.Services.AddApplicationServices();
 builder.Services.AddInfrastructureServices(builder.Configuration);
 
+
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<OrderContext>();
+    db.Database.Migrate();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

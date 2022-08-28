@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wSCqZYHZZ4en37nPxmhOsjiAM2oSV7h+IEssbOWdVHpRSt8fYFlYQGFw/lGQw+9q728+CbL5PGoCpDEwyqTAlg==",
+  "dgSpecHash": "ZsGVQTMiZqMDheRSmLzm6b1rUmHx/h8LcE0YgNxiCccQj4GB5c0tGwkxIZqvxl6BAZtoq5OZyHoAZ4DMDt+Fnw==",
   "success": true,
   "projectFilePath": "D:\\_self_study\\udemy\\src\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
