@@ -42,3 +42,10 @@ D:\_self_study\udemy\src\Services\Basket\Basket.Api\obj\Debug\net6.0\refint\Bask
 D:\_self_study\udemy\src\Services\Basket\Basket.Api\obj\Debug\net6.0\Basket.Api.pdb
 D:\_self_study\udemy\src\Services\Basket\Basket.Api\obj\Debug\net6.0\Basket.Api.genruntimeconfig.cache
 D:\_self_study\udemy\src\Services\Basket\Basket.Api\obj\Debug\net6.0\ref\Basket.Api.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Google.Protobuf.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.AspNetCore.Server.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.Core.Api.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.Net.Client.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.Net.Common.dll
