@@ -49,3 +49,10 @@ D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.Core.A
 D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.Net.Client.dll
 D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
 D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\Grpc.Net.Common.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\MassTransit.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\MassTransit.Abstractions.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\MassTransit.AspNetCoreIntegration.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\_self_study\udemy\src\Services\Basket\Basket.Api\bin\Debug\net6.0\System.Text.Json.dll
