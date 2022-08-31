@@ -1,0 +1,12 @@
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.deps.json
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.dll
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.pdb
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.csproj.AssemblyReference.cache
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.GeneratedMSBuildEditorConfig.editorconfig
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.AssemblyInfoInputs.cache
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.AssemblyInfo.cs
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.csproj.CoreCompileInputs.cache
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.dll
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\refint\EventBus.Messages.dll
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.pdb
+D:\_self_study\udemy\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\ref\EventBus.Messages.dll

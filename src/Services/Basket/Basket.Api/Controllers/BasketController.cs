@@ -1,6 +1,9 @@
-﻿using Basket.Api.Entities;
+﻿using AutoMapper;
+using Basket.Api.Entities;
 using Basket.Api.GrpcServices;
 using Basket.Api.Repositories;
+using EventBus.Messages.Events;
+using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -12,11 +15,15 @@ namespace Basket.Api.Controllers
     {
         private readonly IBasketRepository _repository;
         private readonly DiscountGrpcService _discountGrpcService;
+        private readonly IMapper _mapper;
+        private readonly IPublishEndpoint _publish;
 
-        public BasketController(IBasketRepository repository, DiscountGrpcService discountGrpcService)
+        public BasketController(IBasketRepository repository, DiscountGrpcService discountGrpcService, IMapper mapper, IPublishEndpoint publish)
         {
             _repository = repository;
             _discountGrpcService = discountGrpcService;
+            _mapper = mapper;
+            _publish = publish;
         }
 
         [HttpGet("{userName}", Name = "GetBasket")]
@@ -32,11 +39,11 @@ namespace Basket.Api.Controllers
         [ProducesResponseType(typeof(ShoppingCart), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<ShoppingCart>> UpdateBasket([FromBody] ShoppingCart basket)
         {
-            foreach(var item in basket.Items)
-            {
-                var coupon = await _discountGrpcService.GetDiscount(item.ProductName);
-                item.Price -= coupon.Amount;
-            }
+            //foreach(var item in basket.Items)
+            //{
+            //    var coupon = await _discountGrpcService.GetDiscount(item.ProductName);
+            //    item.Price -= coupon.Amount;
+            //}
 
             return Ok(await _repository.UpdateBasket(basket));
         }
@@ -49,7 +56,7 @@ namespace Basket.Api.Controllers
             return Ok();
         }
 
-        [HttpPost("[action]")]
+        [Route("[action]")]
         [HttpPost]
         [ProducesResponseType((int)HttpStatusCode.Accepted)]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
@@ -60,6 +67,10 @@ namespace Basket.Api.Controllers
             {
                 return BadRequest();
             }
+
+            var eventMessage = _mapper.Map<BasketCheckoutEvent>(basket);
+            eventMessage.TotalPrice = basket.TotalPrice;
+            await _publish.Publish(eventMessage);
 
             await _repository.DeleteBasket(basket.UserName);
             return Accepted();
