@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "W8V+XOElaqLeZC0F3wcH6Jq13OtKYRRoE9mDmKlPi7e59A9mWNQuuW97dyXD0a/gSquxjZr6CVckjJsHT3SB/Q==",
+  "dgSpecHash": "AICorMv5t/LGrob1ihvp7aESw3fUtJ47If/y904XMQ/rh/xJ6ZHM7NZwIXOzQt3WxDNMTxBIFQhaSGT8CTMfng==",
   "success": true,
   "projectFilePath": "D:\\_self_study\\udemy\\src\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rayco\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\google.protobuf\\3.18.0\\google.protobuf.3.18.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\grpc.aspnetcore\\2.40.0\\grpc.aspnetcore.2.40.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\grpc.aspnetcore.server\\2.40.0\\grpc.aspnetcore.server.2.40.0.nupkg.sha512",
@@ -18,6 +20,7 @@
     "C:\\Users\\rayco\\.nuget\\packages\\masstransit.aspnetcore\\7.3.1\\masstransit.aspnetcore.7.3.1.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\masstransit.extensions.dependencyinjection\\7.3.1\\masstransit.extensions.dependencyinjection.7.3.1.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\masstransit.rabbitmq\\8.0.6\\masstransit.rabbitmq.8.0.6.nupkg.sha512",
+    "C:\\Users\\rayco\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\rayco\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\6.0.8\\microsoft.extensions.caching.stackexchangeredis.6.0.8.nupkg.sha512",
