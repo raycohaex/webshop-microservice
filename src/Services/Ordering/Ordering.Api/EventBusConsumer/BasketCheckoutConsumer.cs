@@ -3,7 +3,11 @@ using MassTransit;
 
 namespace Ordering.Api.EventBusConsumer
 {
-    public class BasketCheckoutConsumer: IConsumer<BasketCheckoutEvent>
+    public class BasketCheckoutConsumer : IConsumer<BasketCheckoutEvent>
     {
+        public Task Consume(ConsumeContext<BasketCheckoutEvent> context)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

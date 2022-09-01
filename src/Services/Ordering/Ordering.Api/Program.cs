@@ -1,6 +1,7 @@
 using EventBus.Messages.Common;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
+using Ordering.Api.EventBusConsumer;
 using Ordering.Api.Extensions;
 using Ordering.Application;
 using Ordering.Infrastructure.Persistence;
