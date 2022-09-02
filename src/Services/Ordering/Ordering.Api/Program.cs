@@ -32,6 +32,9 @@ builder.Services.AddMassTransit(config =>
     });
 });
 
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddScoped<BasketCheckoutConsumer>();
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())

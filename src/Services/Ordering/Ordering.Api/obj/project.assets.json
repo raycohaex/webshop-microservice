@@ -3127,6 +3127,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AutoMapper >= 11.0.1",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "EventBus.Messages >= 1.0.0",
       "MassTransit >= 8.0.6",
       "MassTransit.AspNetCore >= 7.3.1",
@@ -3191,6 +3193,14 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[11.0.1, )"
+          },
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.0.0, )"
+          },
           "MassTransit": {
             "target": "Package",
             "version": "[8.0.6, )"
